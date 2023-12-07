@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Frontend Mentor | Clipboard landing page</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+                .attribution {
+                        font-size: 11px;
+                        text-align: center;
+                }
+
+                .attribution a {
+                        color: hsl(228, 45%, 44%);
+                }
+        </style>
+</head>
+
+<body>
+
+        <div class="bg-mobile bg-cover py-12 md:bg-desktop">
+                <div class="flex justify-center mt-12"><img src="./images/logo.svg" alt="" width="100"></div>
+        </div>
+        <div class="font-custom container mx-auto max-w-[1440px] p-12">
+                <!-- Heading -->
+                <div class="text-center text-4xl text-custom-darkGrayishBlue font-bold">A history of everything
+                        you
+                        copy
+                </div>
+                <!-- Clipboard allows you to... -->
+                <div class="flex mt-4 text-center text-custom-grayishBlue justify-center mx-auto lg:w-1/2">
+                        Clipboard allows you to track and organize everything you
+                        copy. Instantly access your clipboard on all your devices.
+                </div>
+                <!-- Button -->
+                <div class="flex flex-col items-center gap-y-4 m-8 xl:justify-center md:flex-row md:gap-x-8">
+                        <button
+                                class="text-white py-4 px-8 rounded-full w-full font-semibold shadow-md shadow-gray-400 bg-custom-strongCyan transition duration-300 xl:w-3/12 hover:scale-110 hover:brightness-125">Download
+                                for
+                                iOS</button>
+                        <button
+                                class="text-white py-4 px-8 rounded-full w-full font-semibold shadow-md shadow-gray-400 transition duration-300 bg-custom-lightBlue xl:w-3/12 hover:scale-110 hover:brightness-125">Download
+                                for
+                                Mac</button>
+                </div>
+                <section class="my-16">
+                        <h1 class="text-4xl text-custom-darkGrayishBlue text-center font-bold">Keep track of your
+                                snippets</h1>
+                        <p class="text-center text-custom-grayishBlue mt-4 xl:1/2">
+                                Clipboard instantly stores any item you copy in the cloud,
+                                meaning you can access your snippets immediately on all your
+                                devices. Our Mac and iOS apps will help you organize everything.
+                        </p>
+                </section>
+                <section class="my-16 flex flex-col lg:flex-row lg:justify-between lg:px-24">
+                        <div class="flex items-center"><img class="" src="./images/image-computer.png" alt="">
+                        </div>
+                        <div class="mt-12 flex flex-col justify-center gap-y-16 lg:mt-0 lg:ml-16">
+                                <div>
+                                        <h1
+                                                class="text-xl text-custom-darkGrayishBlue font-semibold text-center lg:text-left">
+                                                Quick Search</h1>
+                                        <p
+                                                class="text-custom-grayishBlue text-center mt-4 md:mx-auto md:w-2/3 lg:mx-0 lg:w-full lg:text-left lg:mt-2">
+                                                Easily
+                                                search your
+                                                snippets by content, category, web address, application,
+                                                and more.</p>
+                                </div>
+                                <div>
+                                        <h1
+                                                class="text-xl text-custom-darkGrayishBlue font-semibold text-center lg:text-left">
+                                                iCloud Sync</h1>
+                                        <p
+                                                class="text-custom-grayishBlue text-center mt-4 md:mx-auto md:w-2/3 lg:mx-0 lg:w-full lg:text-left lg:mt-2">
+                                                Instantly saves and
+                                                syncs snippets across all your devices.</p>
+                                </div>
+                                <div>
+                                        <h1
+                                                class="text-xl text-custom-darkGrayishBlue font-semibold text-center lg:text-left">
+                                                Complete History
+                                        </h1>
+                                        <p
+                                                class="text-custom-grayishBlue text-center mt-4 md:mx-auto md:w-2/3 lg:mx-0 lg:w-full lg:text-left lg:mt-2">
+                                                Retrieve any
+                                                snippets from the first moment you started using the app.</p>
+                                </div>
+                        </div>
+                </section>
+                <div class="my-12 flex flex-col gap-y-4">
+                        <h1 class="text-2xl text-custom-darkGrayishBlue font-bold text-center md:text-3xl lg:text-4xl">
+                                Access Clipboard anywhere
+                        </h1>
+                        <p class="text-center text-custom-grayishBlue lg:mx-auto lg:w-3/5">
+                                Whether you’re on the go, or at your computer, you can access all your Clipboard
+                                snippets in a few simple clicks.
+                        </p>
+                </div>
+                <div class="flex justify-center my-12">
+                        <img class="" src="./images/image-devices.png" alt="">
+                </div>
+                <div class="my-12 flex flex-col gap-y-4">
+                        <h1 class="text-2xl text-center text-custom-darkGrayishBlue font-bold md:text-3xl lg:text-4xl">
+                                Supercharge your workflow</h1>
+                        <p class="text-center text-custom-grayishBlue">We’ve got the tools to boost your productivity.
+                        </p>
+                </div>
+                <section class="my-12 flex flex-col gap-y-12 md:flex-row md:gap-x-8">
+                        <div class="flex flex-col gap-y-4 md:w-1/3">
+                                <div class="flex justify-center">
+                                        <img class="w-9" src="./images/icon-blacklist.svg" alt="">
+                                </div>
+                                <h1 class="text-center text-2xl text-custom-darkGrayishBlue font-bold">Create blacklists
+                                </h1>
+                                <p class="text-center text-custom-grayishBlue">
+                                        Ensure sensitive information never makes its way to your clipboard by excluding
+                                        certain
+                                        sources.
+                                </p>
+                        </div>
+                        <div class="flex flex-col gap-y-4 md:w-1/3">
+                                <div class="flex justify-center">
+                                        <img class="" src="./images/icon-text.svg" alt="">
+                                </div>
+                                <h1 class="text-center text-2xl text-custom-darkGrayishBlue font-bold">Plain text
+                                        snippets</h1>
+                                <p class="text-center text-custom-grayishBlue">Remove unwanted formatting from copied
+                                        text for a consistent look.</p>
+                        </div>
+                        <div class="flex flex-col gap-y-4 md:w-1/3">
+                                <div class="flex justify-center">
+                                        <img class="" src="./images//icon-preview.svg" alt="">
+                                </div>
+                                <h1 class="text-center text-2xl text-custom-darkGrayishBlue font-bold">Sneak preview
+                                </h1>
+                                <p class="text-center text-custom-grayishBlue">Quick preview of all snippets on your
+                                        Clipboard for easy access.</p>
+                        </div>
+                </section>
+                <section class="my-24 flex flex-col items-center gap-y-24 lg:flex-row lg:justify-between">
+                        <div>
+                                <img src="./images/logo-google.png" alt="">
+                        </div>
+                        <div>
+                                <img src="./images/logo-ibm.png" alt="">
+                        </div>
+                        <div>
+                                <img src="./images/logo-microsoft.png" alt="">
+                        </div>
+                        <div>
+                                <img src="./images/logo-hp.png" alt="">
+                        </div>
+                        <div>
+                                <img src="./images/logo-vector-graphics.png" alt="">
+                        </div>
+                </section>
+                <section class="my-12 flex flex-col gap-y-8 px-8">
+                        <h1 class="text-center text-custom-darkGrayishBlue text-3xl font-bold">Clipboard for iOS and Mac
+                                OS</h1>
+                        <p class="text-center text-custom-grayishBlue">
+                                Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+                                and you’re ready to start adding to your clipboard.
+                        </p>
+                        <div class="flex flex-col gap-y-8 md:flex-row md:justify-center md:gap-x-8">
+                                <button
+                                        class="px-16 py-4 bg-custom-strongCyan rounded-full text-white font-semibold shadow-md transition duration-300 shadow-gray-400 hover:scale-110 hover:brightness-125">Download
+                                        for iOS</button>
+                                <button
+                                        class="px-16 py-4 bg-custom-lightBlue rounded-full text-white font-semibold shadow-md transition duration-300 shadow-gray-400 hover:scale-110 hover:brightness-125">Download
+                                        for Mac</button>
+                        </div>
+                </section>
+        </div>
+        <div class="bg-gray-100">
+                <footer
+                        class="container mx-auto max-w-[1440px] p-12 flex flex-col items-center gap-y-8 md:flex-row md:justify-between">
+                        <div class="flex flex-col gap-y-8 items-center md:flex-row md:justify-between md:w-2/3">
+                                <div class="w-16">
+                                        <img class="w-full" src="./images/logo.svg" alt="">
+                                </div>
+                                <div class="text-custom-grayishBlue gap-y-8 flex justify-between flex-col">
+                                        <h1 class="text-center md:text-left">FAQs</h1>
+                                        <h1 class="text-center md:text-left">Contact Us</h1>
+                                </div>
+                                <div class="text-custom-grayishBlue gap-y-8 flex justify-between flex-col">
+                                        <h1 class="text-center md:text-left">Privacy Policy</h1>
+                                        <h1 class="text-center md:text-left">Press Kit</h1>
+                                </div class="text-custom-grayishBlue flex justify-between flex-col">
+                                <div class="text-custom-grayishBlue flex self-start">Install Guide</div>
+                        </div>
+                        <div class="flex gap-x-12 md:gap-x-8">
+                                <img src="./images/icon-facebook.svg" alt="">
+                                <img src="./images/icon-instagram.svg" alt="">
+                                <img src="./images/icon-twitter.svg" alt="">
+                        </div>
+                </footer>
+                <div class="pb-2">
+                        <p class="attribution">
+                                Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+                                        target="_blank">Frontend
+                                        Mentor</a>.
+                                Coded by <a href="#">Faiqzfrn</a>.
+                        </p>
+                </div>
+        </div>
+</body>
+
+</html>
